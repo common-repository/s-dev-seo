@@ -1,0 +1,158 @@
+/********************************************
+*	S-DEV SEO Overview / Settings Page
+*/
+	
+	.sdev-seo-notice ul {
+		list-style-type: disc;
+		list-style-position: inside;
+	}
+
+	.wrap.sdev-seo-overview .wpse-sdevseo-table,
+	.wrap.sdev-seo-settings .wpse-sdevseo-table {
+		display: table;
+		table-layout: fixed;
+		vertical-align: middle;
+	}
+	
+	.wrap.sdev-seo-overview .wpse-sdevseo-table .wpse-sdevseo-table-row,
+	.wrap.sdev-seo-settings .wpse-sdevseo-table .wpse-sdevseo-table-row {
+		display: table-row;
+	}
+	
+	.wrap.sdev-seo-overview .wpse-sdevseo-table .wpse-sdevseo-table-row:not(.clear-header) .wpse-sdevseo-table-cell:first-child {
+		text-align: center;
+	}
+	
+	.wrap.sdev-seo-overview .wpse-sdevseo-table .wpse-sdevseo-table-row .wpse-sdevseo-table-cell.has-parent {
+		text-align: right;
+	}
+	
+	.wrap.sdev-seo-overview .wpse-sdevseo-table .wpse-sdevseo-table-row .wpse-sdevseo-table-cell,
+	.wrap.sdev-seo-settings .wpse-sdevseo-table .wpse-sdevseo-table-row .wpse-sdevseo-table-cell {
+		position: relative;
+		display: table-cell;
+		vertical-align: middle;
+		padding:  10px 20px;
+		background: #d6d3d3;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+
+	.wrap.sdev-seo-overview .wpse-sdevseo-table .wpse-sdevseo-table-row .wpse-sdevseo-table-cell .id-brick {
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		color: #fff;
+		background: #08384e;
+		text-align: center;
+	}
+	
+	.wrap.sdev-seo-overview .wpse-sdevseo-table .wpse-sdevseo-table-row:nth-child(odd) .wpse-sdevseo-table-cell,
+	.wrap.sdev-seo-settings .wpse-sdevseo-table .wpse-sdevseo-table-row:nth-child(odd) .wpse-sdevseo-table-cell {
+		background: #fff;
+	}
+	
+	.wrap.sdev-seo-overview .wpse-sdevseo-table .wpse-sdevseo-table-row.table-header .wpse-sdevseo-table-cell,
+	.wrap.sdev-seo-overview .wpse-sdevseo-table .wpse-sdevseo-table-row.table-footer .wpse-sdevseo-table-cell,
+	.wrap.sdev-seo-settings .wpse-sdevseo-table .wpse-sdevseo-table-row.table-header .wpse-sdevseo-table-cell {
+		background: #065073!important;
+		color: #fff;
+		font-size: 1.2em;
+		padding: 20px;
+	}
+	
+	.wrap.sdev-seo-settings .wpse-sdevseo-table .wpse-sdevseo-table-row.table-footer .wpse-sdevseo-table-cell {
+		background: #065073!important;
+		color: #fff;
+		font-size: 1.2em;
+		padding: 10px 20px;
+		text-align: right;
+	}
+	
+	.wrap.sdev-seo-overview .wpse-sdevseo-table .wpse-sdevseo-table-row .wpse-sdevseo-table-cell.input-cell .sdevseo-input-container:nth-child(1) {
+		margin-bottom: 10px;
+	}
+	
+	.wrap.sdev-seo-overview .wpse-sdevseo-table .wpse-sdevseo-table-row .wpse-sdevseo-table-cell.input-cell .sdevseo-input-container-header > span {
+		display: block;
+	}
+	
+	.wrap.sdev-seo-overview .wpse-sdevseo-table .wpse-sdevseo-table-row .wpse-sdevseo-table-cell.input-cell .sdevseo-input-container-header > span:nth-child(1) {
+		float: left;
+	}
+	
+	.wrap.sdev-seo-overview .wpse-sdevseo-table .wpse-sdevseo-table-row .wpse-sdevseo-table-cell.input-cell .sdevseo-input-container-header > span:nth-child(2) {
+		float: right;
+	}
+	
+	.wrap.sdev-seo-overview .wpse-sdevseo-table .wpse-sdevseo-table-row .wpse-sdevseo-table-cell.input-cell input,
+	.wrap.sdev-seo-overview .wpse-sdevseo-table .wpse-sdevseo-table-row .wpse-sdevseo-table-cell.input-cell textarea {
+		min-width: 500px;
+	}
+	
+	.wrap.sdev-seo-overview .wpse-sdevseo-table .wpse-sdevseo-table-row.clear-header .wpse-sdevseo-table-cell {
+		padding: 20px 0 0;
+		background: none;
+	}
+	
+	.wrap.sdev-seo-overview .wpse-sdevseo-table .wpse-sdevseo-table-row.table-header .wpse-sdevseo-table-cell:first-child {
+		text-align: center;
+		padding: 20px 60px;
+	}
+	
+	.wrap.sdev-seo-overview .wpse-sdevseo-table .wpse-sdevseo-table-row.table-footer .wpse-sdevseo-table-cell.action-cell,
+	.wrap.sdev-seo-settings .wpse-sdevseo-table .wpse-sdevseo-table-row.table-footer .wpse-sdevseo-table-cell.action-cell {
+		text-align: right;
+		height: 58px;
+	}
+	
+	.wrap.sdev-seo-overview .wpse-sdevseo-table .wpse-sdevseo-table-row .wpse-sdevseo-table-cell .wpse-sdevseo-submit-btn {
+		position: absolute;
+		font-size: 1em;
+		right: 13px;
+		top: 13px;
+	}
+	
+	
+/********************************************
+* S-DEV SEO Page / Posts edit screens
+*/
+	
+	div.postbox#wpse-sdevseo-metabox > h2 {
+		background: #065073;
+		color: #fff;
+	}
+	
+	div.postbox#wpse-sdevseo-metabox > h2 > span {
+		margin-left: 5px; /* t'was a little too tight */
+	}
+	
+	div.postbox#wpse-sdevseo-metabox .sdevseo-input-header {
+		margin-bottom: 0;
+		font-weight: bold;
+	}
+	
+	div.postbox#wpse-sdevseo-metabox .sdevseo-input-container {
+		position: relative;
+		margin-top: 0;
+	}
+	
+	div.postbox#wpse-sdevseo-metabox .sdevseo-container .sdevseo-input-container label {
+		position: absolute;
+		top: 5px;
+		left: 10px;
+		font-style: italic;
+		font-size: 1.2em;
+		color: #929292;
+	}
+
+	div.postbox#wpse-sdevseo-metabox .sdevseo-container .sdevseo-input,
+	div.postbox#wpse-sdevseo-metabox .sdevseo-container .sdevseo-textarea {
+		width: calc(100% - 2px);
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		font-size: 1.2em;
+	}
